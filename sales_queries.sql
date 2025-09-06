@@ -25,15 +25,7 @@ CREATE TABLE sales(
 SHOW GLOBAL VARIABLES LIKE 'local_infile';
 SET GLOBAL local_infile = 1;
 
-LOAD DATA LOCAL INFILE 
-'/Users/username/Downloads/SalesData.csv'
-INTO TABLE sales
-FIELDS TERMINATED BY ','
-ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
-IGNORE 1 ROWS;
-
-------------------- Feature Engineering -----------------------------
+-- Feature Engineering 
 
 -- 1. Time_of_day
 SELECT time,
@@ -69,7 +61,7 @@ ALTER TABLE sales ADD COLUMN month_name VARCHAR(10);
 
 UPDATE sales SET month_name = MONTHNAME(date);
 
----------------- Exploratory Data Analysis (EDA) ---------------------
+-- Exploratory Data Analysis (EDA) 
 
 -- Generic Questions
 -- 1. How many distinct cities are present in the dataset?
