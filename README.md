@@ -1,7 +1,7 @@
 # Sales Data Analysis – SQL Project
 
 ## About  
-We are analyzing sales data to identify high-performing branches and products, analyze the sales patterns of various products, and understand customer behavior. The primary objective is to enhance and optimize sales strategies. The dataset utilized in this project is sourced from the Kaggle Sales Forecasting Competition.
+Analyzing sales data to identify high-performing branches and products, analyze the sales patterns of various products, and understand customer behavior. The primary objective is to enhance and optimize sales strategies. The dataset utilized in this project is sourced from the Kaggle Sales Forecasting Competition.
 
 ## Purpose of the Project  
 The main goal of this project is to gain insights from the sales data, exploring the various factors that influence sales across different branches.
